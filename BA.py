@@ -14,7 +14,6 @@ if chce == 'y':
         subprocess.call("sudo chmod +x strap.sh", shell=True)
         subprocess.call("sudo ./strap.sh", shell=True)
         subprocess.call("sudo pacman -S blackarch", shell=True)
-        subprocess.call("all" , shell=True)
 if chce == 'n':
         print("Okay Scipt kiddie, Go back to hackforums")
         exit()
